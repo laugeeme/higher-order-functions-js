@@ -179,6 +179,7 @@ const autos = [
   console.log(autos[i]);
 } */
 
+
 // forEach: recorre todos los elementos de un array, ejemplo un carrito de compra. Sólo accede a los valores. Pudes filtrar pero para eso mejor usar filter().
 /* let result = [];
 autos.forEach((auto) => {
@@ -188,14 +189,27 @@ autos.forEach((auto) => {
 });
 console.log(result); */
 
-// map: es como el foreach pero retorna un array nuevo, no sólo accede a los valores.
-let result = autos.map((auto) => auto);
-console.log(result);
 
-// filter: para extraer valores
+// map: es como el foreach pero retorna un array nuevo, no sólo accede a los valores.
+/* let result = autos.map((auto) => auto);
+console.log(result); */
+
+
+// filter: para extraer valores, crea un array con ellos.
+/* let result = autos.filter((auto) => auto.marca === 'BMW');
+console.log(result);
+ */
+
 
 // find
 
+
+
+
 // reduce
+
+
+
+
 
 // some
