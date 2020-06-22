@@ -195,18 +195,20 @@ console.log(result); */
 console.log(result); */
 
 
-// filter: para extraer valores, crea un array con ellos.
+// filter: crea un array con todos los resultados que cumplan la condición expuesta.
 /* let result = autos.filter((auto) => auto.marca === 'BMW');
 console.log(result);
  */
 
 
-// find
+// find: retorna un array con el primer elemento que encuentre con esa condición
+/* let result = autos.find(auto => auto.marca === 'BMW');
+console.log(result); */
 
 
-
-
-// reduce
+// reduce: toma todos los valores del array y retorna un valor único. Dos valores, valor anterior y valor actual, y valor inicial (acumulador)
+let result = autos.reduce((total, auto) => total + auto.precio, 0);
+console.log(result);
 
 
 
