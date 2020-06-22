@@ -207,11 +207,10 @@ console.log(result); */
 
 
 // reduce: toma todos los valores del array y retorna un valor único. Dos valores, valor anterior y valor actual, y valor inicial (acumulador)
-let result = autos.reduce((total, auto) => total + auto.precio, 0);
-console.log(result);
+/* let result = autos.reduce((total, auto) => total + auto.precio, 0);
+console.log(result); */
 
 
-
-
-
-// some
+// some: retorna true o false tras evaluar cierta condición.
+/* let result = autos.some(auto => auto.marca === 'BMW');
+console.log(result); */
