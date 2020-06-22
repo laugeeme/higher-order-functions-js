@@ -5,5 +5,10 @@ Based on the [Udemy Course](https://www.udemy.com/course/javascript-moderno-guia
 
 
 <div align="center">
-       <img src="./images/web.png" width="600px"</img> 
+       <img src="./images/web1.png" width="600px"</img> 
+</div>
+
+
+<div align="center">
+       <img src="./images/web2.png" width="600px"</img> 
 </div>
