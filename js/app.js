@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 'use strict';
 
 const autos = [
@@ -174,14 +175,24 @@ const autos = [
   },
 ];
 
-// forEach
-autos.forEach(() =>{
-	 
+/* for (let i = 0; i < autos.length; i++) {
+  console.log(autos[i]);
+} */
+
+// forEach: recorre todos los elementos de un array, ejemplo un carrito de compra. Sólo accede a los valores. Pudes filtrar pero para eso mejor usar filter().
+/* let result = [];
+autos.forEach((auto) => {
+  if (auto.color === 'Rojo') {
+    result.push(auto);
+  }
 });
+console.log(result); */
 
-// map
+// map: es como el foreach pero retorna un array nuevo, no sólo accede a los valores.
+let result = autos.map((auto) => auto);
+console.log(result);
 
-// filter
+// filter: para extraer valores
 
 // find
 
